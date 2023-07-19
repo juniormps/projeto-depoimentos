@@ -6,11 +6,14 @@
 		align-content: center;
 	}
 	#testimonials{
+		width: 75vw;
 		height: 80vh;
 		border-radius: 8px;
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: auto;
+		grid-template-rows: repeat(2, 1fr);
+		gap: 25px;
+		padding: 25px;
 	}
 
 	#comentario-1 {
@@ -23,9 +26,19 @@
 		grid-row: 2 / 3;
 	}
 
+	#comentario-3 > blockquote {
+		
+		
+	}	
+
 	#comentario-5 {
 		grid-column: 4 / 5;
 		grid-row: 1 / 3;
 	}
+
+	p {
+		font-size: 13px;
+	}
+	
 }
 
